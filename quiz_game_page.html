@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Project 91</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="quiz_game_page.js"></script>
+    </head>
+
+    <body onload="game()">
+        <br>
+        <h4 id="player1_name"></h4><span><h4 id="player1_score"></h4></span>
+        <br><br><br>
+        <h4 id="player2_name"></h4><span id="player2_score"></span>
+        <br><br>
+
+        <div class="container">
+            <center>
+
+                <h1 style="color: white;">MATH QUIZ GAME</h1>
+
+                <h2 id="question_turn">QUESTION TURN : </h2>
+                <h2 id="answer_turn">ANSWER TURN : </h2>
+                    <br><br>
+
+                <div id="output" class="question">
+                    <h2 id="question"></h2>
+
+                    <label class="label_">Answer : </label> &nbsp;&nbsp; <input id="answer_input">
+                    <br>
+
+                    <button id="check_button">Check
+                    </button>
+                </div>
+                <br><br>
+                <label class="label_">Number 1 : </label> &nbsp;&nbsp; <input style="width: 350px; height: 35px;" id="number1_input">
+                <br><br>
+                <label class="label_">Number 2 : </label> &nbsp;&nbsp; <input style="width: 350px; height: 35px;" id="number2_input">
+                 <br><br>
+                <button id="send_button" onclick="send()">SEND
+                </button>
+
+</center>
+        </div>
+    </body>
+    </html>

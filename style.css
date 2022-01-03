@@ -1,0 +1,120 @@
+body{
+    background-image: url("background1.jpg");
+    background-size: cover;
+}
+
+h1{
+    color: mediumaquamarine;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+#button{
+    font-size: 25px;
+    background-color: orange;
+    color: black;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.section-style {
+    width: 30%;
+    margin-right: 25px;
+    margin-left: 25px;
+    
+}
+
+#player1_text{
+background-color: coral;
+font-size: 30px;
+}
+
+#player2_text{
+    background-color: lightgreen;
+    font-size: 30px;
+}
+
+.label{
+    font-size: 25px;
+    color: black;
+}
+
+.player_input{
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 3%;
+}
+
+#output{
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 10px solid deeppink;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+
+.label_{
+    font-size: 25px;
+}
+
+#answer_input{
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    border-top: 4px solid black;
+    border-color: black;
+}
+
+#check_button{
+    width: 100px;
+    height: 35px;
+    background-color: orange;
+    color: black;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+
+#send_button{
+    width: 100px;
+    height: 35px;
+    background-color: orange;
+    color: black;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#number1_input, #number2_input{
+    font-size: 25px;
+}
+
+#player1_name, #player2_name, #player1_score, #player2_score{
+    background-color: aqua;
+    color: black;
+    width: max-content;
+    height: 30px;
+    font-size: 25px;
+    margin-top: auto;
+}
+
+#player1_name, #player2_name{
+    margin-left: 10px;
+}
+
+
+#player2_name, #player2_score{
+    float: left;
+}
+
+#player1_name, #player1_score{
+    float: left;
+}
